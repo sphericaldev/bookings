@@ -351,7 +351,7 @@ export const FormBuilder = function FormBuilder({
                     {shouldDisplayDeleteButton && (
                       <Button
                         color="destructive"
-                        disabled={isFieldEditableSystem || isFieldEditableSystemButOptional}
+                        disabled={!shouldDisplayDeleteButton}
                         variant="icon"
                         onClick={() => {
                           removeField(index);
