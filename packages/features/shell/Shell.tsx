@@ -56,7 +56,6 @@ import {
   FiGrid,
   FiMoreHorizontal,
   FiFileText,
-  FiZap,
   FiSettings,
   FiArrowRight,
   FiArrowLeft,
@@ -526,11 +525,11 @@ const navigation: NavigationItemType[] = [
       return router.asPath.startsWith("/apps/routing-forms/");
     },
   },
-  {
+  /*   {
     name: "workflows",
     href: "/workflows",
     icon: FiZap,
-  },
+  }, */
   {
     name: "settings",
     href: "/settings/my-account/profile",
