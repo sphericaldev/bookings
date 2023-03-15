@@ -17,7 +17,6 @@ import { Badge, Button, ErrorBoundary, VerticalTabItem, Skeleton, useMeta } from
 import {
   FiUser,
   FiKey,
-  FiCreditCard,
   FiTerminal,
   FiUsers,
   FiLock,
@@ -53,12 +52,12 @@ const tabs: VerticalTabItemProps[] = [
       { name: "impersonation", href: "/settings/security/impersonation" },
     ],
   },
-  {
+  /*   {
     name: "billing",
     href: "/settings/billing",
     icon: FiCreditCard,
     children: [{ name: "manage_billing", href: "/settings/billing" }],
-  },
+  }, */
   {
     name: "developer",
     href: "/settings/developer",
@@ -299,12 +298,12 @@ const SettingsSidebarContainer = ({
                                   textClassNames="px-3 text-gray-900 font-medium text-sm"
                                   disableChevron
                                 />
-                                <VerticalTabItem
+                                {/*                                 <VerticalTabItem
                                   name={t("billing")}
                                   href={`/settings/teams/${team.id}/billing`}
                                   textClassNames="px-3 text-gray-900 font-medium text-sm"
                                   disableChevron
-                                />
+                                /> */}
                                 {HOSTED_CAL_FEATURES && (
                                   <VerticalTabItem
                                     name={t("saml_config")}
