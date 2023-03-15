@@ -18,7 +18,7 @@ import TimezoneChangeDialog from "@calcom/features/settings/TimezoneChangeDialog
 import AdminPasswordBanner from "@calcom/features/users/components/AdminPasswordBanner";
 import CustomBranding from "@calcom/lib/CustomBranding";
 import classNames from "@calcom/lib/classNames";
-import { APP_NAME, DESKTOP_APP_LINK, JOIN_SLACK, ROADMAP, WEBAPP_URL } from "@calcom/lib/constants";
+import { APP_NAME, WEBAPP_URL } from "@calcom/lib/constants";
 import { useLocale } from "@calcom/lib/hooks/useLocale";
 import useTheme from "@calcom/lib/hooks/useTheme";
 import { trpc } from "@calcom/trpc/react";
@@ -45,10 +45,6 @@ import {
   FiMoon,
   FiExternalLink,
   FiLink,
-  FiSlack,
-  FiMap,
-  FiHelpCircle,
-  FiDownload,
   FiLogOut,
   FiCalendar,
   FiClock,
@@ -375,7 +371,7 @@ function UserDropdown({ small }: { small?: boolean }) {
                     </DropdownMenuItem>
                   </>
                 )}
-                <DropdownMenuSeparator />
+                {/*                 <DropdownMenuSeparator />
                 <DropdownMenuItem>
                   <DropdownItem
                     StartIcon={(props) => <FiSlack strokeWidth={1.5} {...props} />}
@@ -407,7 +403,7 @@ function UserDropdown({ small }: { small?: boolean }) {
                     {t("download_desktop_app")}
                   </DropdownItem>
                 </DropdownMenuItem>
-
+ */}
                 <DropdownMenuSeparator />
                 <DropdownMenuItem>
                   <DropdownItem
