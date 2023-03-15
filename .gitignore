@@ -87,3 +87,4 @@ apps/api
 apps/website
 apps/console
 apps/auth
+.vscode/settings.json
