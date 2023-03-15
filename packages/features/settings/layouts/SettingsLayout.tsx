@@ -82,10 +82,10 @@ const tabs: VerticalTabItemProps[] = [
     icon: FiLock,
     children: [
       //
-      { name: "license", href: "/auth/setup?step=1" },
+      /* { name: "license", href: "/auth/setup?step=1" }, */
       { name: "impersonation", href: "/settings/admin/impersonation" },
       { name: "apps", href: "/settings/admin/apps/calendar" },
-      { name: "users", href: "https://console.cal.com" },
+      /* { name: "users", href: "https://console.cal.com" }, */
     ],
   },
 ];
