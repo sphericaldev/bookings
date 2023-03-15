@@ -9,7 +9,6 @@ import { Button, Meta, showToast } from "@calcom/ui";
 import { FiPlus } from "@calcom/ui/components/icon";
 
 import { getLayout } from "../../../settings/layouts/SettingsLayout";
-import DisableTeamImpersonation from "../components/DisableTeamImpersonation";
 import MemberInvitationModal from "../components/MemberInvitationModal";
 import MemberListItem from "../components/MemberListItem";
 import TeamInviteList from "../components/TeamInviteList";
@@ -95,7 +94,7 @@ const MembersView = () => {
                 })}
               </ul>
             </div>
-            <hr className="my-8 border-gray-200" />
+            {/*             <hr className="my-8 border-gray-200" />
 
             {team && session.data && (
               <DisableTeamImpersonation
@@ -104,7 +103,7 @@ const MembersView = () => {
                 disabled={isInviteOpen}
               />
             )}
-            <hr className="my-8 border-gray-200" />
+            <hr className="my-8 border-gray-200" /> */}
           </div>
           {showMemberInvitationModal && team && (
             <MemberInvitationModal
