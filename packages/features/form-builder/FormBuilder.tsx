@@ -592,7 +592,6 @@ export const ComponentForField = ({
       `Value ${value} is not valid for type ${componentConfig.propsType} for field ${field.name}`
     );
   }
-
   if (componentConfig.propsType === "text") {
     return (
       <WithLabel field={field} readOnly={readOnly}>
@@ -688,6 +687,7 @@ export const ComponentForField = ({
           setValue={setValue as (arg: typeof value) => void}
           optionsInputs={field.optionsInputs}
           options={field.options}
+          required={field.required}
         />
       </WithLabel>
     ) : null;
@@ -713,7 +713,7 @@ export const FormBuilderField = ({
         control={control}
         // Make it a variable
         name={`responses.${field.name}`}
-        render={({ field: { value, onChange } }) => {
+        render={({ field: { value, onChange }, fieldState: { error } }) => {
           return (
             <div>
               <ComponentForField
@@ -729,6 +729,19 @@ export const FormBuilderField = ({
                 errors={formState.errors}
                 render={({ message }) => {
                   const name = message?.replace(/\{([^}]+)\}.*/, "$1");
+
+                  // For edge case when location is not hidden and required but it is not passed. (For example having only one location Attendee Phone Number in the event type)
+                  if (name !== field.name && field.name === "location" && error) {
+                    return (
+                      <div
+                        data-testid="error-message-location"
+                        className="mt-2 flex items-center text-sm text-red-700 ">
+                        <FiInfo className="h-3 w-3 ltr:mr-2 rtl:ml-2" />
+                        <p>{t("error_required_field")}</p>
+                      </div>
+                    );
+                  }
+
                   // Use the message targeted for it.
                   if (name !== field.name) {
                     return null;
