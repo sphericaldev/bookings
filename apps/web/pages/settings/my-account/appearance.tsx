@@ -2,12 +2,10 @@ import { Controller, useForm } from "react-hook-form";
 
 import ThemeLabel from "@calcom/features/settings/ThemeLabel";
 import { getLayout } from "@calcom/features/settings/layouts/SettingsLayout";
-import { APP_NAME } from "@calcom/lib/constants";
 import { useHasPaidPlan } from "@calcom/lib/hooks/useHasPaidPlan";
 import { useLocale } from "@calcom/lib/hooks/useLocale";
 import { trpc } from "@calcom/trpc/react";
 import {
-  Button,
   ColorPicker,
   Form,
   Meta,
@@ -15,8 +13,6 @@ import {
   SkeletonButton,
   SkeletonContainer,
   SkeletonText,
-  Switch,
-  UpgradeTeamsBadge,
 } from "@calcom/ui";
 
 const SkeletonLoader = ({ title, description }: { title: string; description: string }) => {
@@ -167,6 +163,7 @@ const AppearanceView = () => {
         onClick={() => window.open(`${WEBAPP_URL}/${user.username}/${user.eventTypes[0].title}`, "_blank")}>
         Preview
       </Button> */}
+      {/* Disable Branding Toggle
       <hr className="my-8 border border-gray-200" />
       <Controller
         name="hideBranding"
@@ -205,7 +202,7 @@ const AppearanceView = () => {
         color="primary"
         className="mt-8">
         {t("update")}
-      </Button>
+      </Button> */}
     </Form>
   );
 };

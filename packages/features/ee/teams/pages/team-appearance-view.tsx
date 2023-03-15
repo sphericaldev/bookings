@@ -2,7 +2,6 @@ import { MembershipRole } from "@prisma/client";
 import { useRouter } from "next/router";
 import { Controller, useForm } from "react-hook-form";
 
-import { APP_NAME } from "@calcom/lib/constants";
 import { useLocale } from "@calcom/lib/hooks/useLocale";
 import { trpc } from "@calcom/trpc/react";
 import {
@@ -174,8 +173,8 @@ const ProfileView = () => {
           <hr className="my-8 border-gray-200" />
 
           <div className="flex flex-col gap-8">
-            <div className="relative flex items-start">
-              <div className="flex-grow text-sm">
+            {/*<div className="relative flex items-start">
+               <div className="flex-grow text-sm">
                 <label htmlFor="hide-branding" className="font-medium text-gray-700">
                   {t("disable_cal_branding", { appName: APP_NAME })}
                 </label>
@@ -199,7 +198,7 @@ const ProfileView = () => {
                   )}
                 />
               </div>
-            </div>
+            </div> */}
             <div className="relative flex items-start">
               <div className="flex-grow text-sm">
                 <label htmlFor="hide-branding" className="font-medium text-gray-700">
