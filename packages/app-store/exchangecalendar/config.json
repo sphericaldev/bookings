@@ -6,11 +6,11 @@
   "type": "exchange_calendar",
   "imageSrc": "/api/app-store/exchangecalendar/icon.svg",
   "logo": "/api/app-store/exchangecalendar/icon.svg",
-  "url": "https://cal.com/apps/exchange",
+  "url": "",
   "variant": "calendar",
   "categories": ["calendar"],
-  "publisher": "Cal.com",
-  "email": "help@cal.com",
+  "publisher": "Spherical",
+  "email": "help@spherical.works",
   "description": "Fetch Microsoft Exchange calendars and availabilities using Exchange Web Services (EWS).",
   "__createdUsingCli": true
 }

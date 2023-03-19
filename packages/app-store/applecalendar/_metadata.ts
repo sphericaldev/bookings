@@ -13,14 +13,14 @@ export const metadata = {
   categories: ["calendar"],
   category: "calendar",
   logo: "/api/app-store/applecalendar/icon.svg",
-  publisher: "Cal.com",
+  publisher: "Spherical",
   rating: 5,
   reviews: 69,
   slug: "apple-calendar",
   trending: false,
-  url: "https://cal.com/",
+  url: "",
   verified: true,
-  email: "help@cal.com",
+  email: "help@spherical.works",
   dirName: "applecalendar",
 } as AppMeta;
 

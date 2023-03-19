@@ -8,8 +8,8 @@
   "url": "https://cal.com/apps/whatsapp",
   "variant": "conferencing",
   "categories": ["video"],
-  "publisher": "Cal.com, Inc.",
-  "email": "support@cal.com",
+  "publisher": "Spherical",
+  "email": "help@spherical.works",
   "description": "Schedule a chat with your guests or have a WhatsApp Video call.",
   "__createdUsingCli": true,
   "appData": {

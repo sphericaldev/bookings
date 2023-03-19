@@ -8,8 +8,8 @@
   "url": "https://weather-in-calendar.com",
   "variant": "other",
   "categories": ["other"],
-  "publisher": "vejnoe",
-  "email": "info@vejnoe.dk",
+  "publisher": "Spherical",
+  "email": "help@spherical.works",
   "description": "Get the local weather forecast with icons in your calendar\r\r",
   "__createdUsingCli": true
 }

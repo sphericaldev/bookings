@@ -12,14 +12,14 @@ export const metadata = {
   category: "calendar",
   categories: ["calendar"],
   logo: "/api/app-store/office365calendar/icon.svg",
-  publisher: "Cal.com",
+  publisher: "Spherical",
   rating: 5,
   reviews: 69,
   slug: "office365-calendar",
   trending: false,
-  url: "https://cal.com/",
+  url: "https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook",
   verified: true,
-  email: "help@cal.com",
+  email: "help@spherical.works",
   dirName: "office365calendar",
 } as AppMeta;
 

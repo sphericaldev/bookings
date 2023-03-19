@@ -15,14 +15,14 @@ export const metadata = {
   imageSrc: "/api/app-store/googlevideo/logo.webp",
   variant: "conferencing",
   logo: "/api/app-store/googlevideo/logo.webp",
-  publisher: "Cal.com",
+  publisher: "Spherical",
   rating: 5,
   reviews: 69,
   trending: false,
-  url: "https://cal.com/",
+  url: "https://apps.google.com/meet/",
   verified: true,
   isGlobal: false,
-  email: "help@cal.com",
+  email: "help@spherical.works",
   appData: {
     location: {
       linkType: "dynamic",
