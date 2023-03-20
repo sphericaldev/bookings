@@ -5,11 +5,11 @@
   "type": "wordpress_other",
   "imageSrc": "/api/app-store/wordpress/icon.svg",
   "logo": "/api/app-store/wordpress/icon.svg",
-  "url": "https://github.com/calcom/wp-plugin",
+  "url": "",
   "variant": "other",
   "categories": ["other"],
-  "publisher": "Cal.com, Inc.",
-  "email": "support@cal.com",
+  "publisher": "Spherical",
+  "email": "help@spherical.works",
   "description": "Embedded booking pages right into your wordpress page",
   "__createdUsingCli": true
 }

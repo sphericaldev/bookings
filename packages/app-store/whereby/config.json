@@ -6,11 +6,11 @@
   "type": "whereby_video",
   "imageSrc": "/api/app-store/whereby/icon.svg",
   "logo": "/api/app-store/whereby/icon.svg",
-  "url": "https://cal.com/apps/whereby",
+  "url": "https://whereby.com",
   "variant": "conferencing",
   "categories": ["video"],
-  "publisher": "Cal.com",
-  "email": "help@cal.com",
+  "publisher": "Spherical",
+  "email": "help@spherical.works",
   "description": "Whereby makes it super simple for collaborating teams to jump on a video call.",
   "__createdUsingCli": true,
   "appData": {
@@ -18,7 +18,7 @@
       "linkType": "static",
       "type": "integrations:whereby_video",
       "label": "Whereby Video",
-      "organizerInputPlaceholder": "https://www.whereby.com/cal",
+      "organizerInputPlaceholder": "https://www.whereby.com",
       "urlRegExp": "^http(s)?:\\/\\/(www\\.)?(team.)?whereby.com\\/[a-zA-Z0-9]*"
     }
   }

@@ -19,7 +19,7 @@ export const metadata = {
   reviews: 69,
   slug: "google-calendar",
   trending: false,
-  url: "https://workspace.google.com/products/calendar/",
+  url: "https://workspace.google.com/products/calendar",
   verified: true,
   email: "help@spherical.works",
   dirName: "googlecalendar",

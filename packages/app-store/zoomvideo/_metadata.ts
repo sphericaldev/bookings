@@ -12,7 +12,7 @@ export const metadata = {
   variant: "conferencing",
   logo: "/api/app-store/zoomvideo/icon.svg",
   publisher: "Spherical",
-  url: "https://zoom.us/",
+  url: "https://zoom.us",
   verified: true,
   rating: 4.3, // TODO: placeholder for now, pull this from TrustPilot or G2
   reviews: 69, // TODO: placeholder for now, pull this from TrustPilot or G2

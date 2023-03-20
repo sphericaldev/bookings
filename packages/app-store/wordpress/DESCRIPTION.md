@@ -2,13 +2,13 @@ Embedded booking pages right into your wordpress page.
 
 #### FEATURES
 
-- Add Cal.com booking calendar to any WordPress page/post with a simple shortcode.
-- Display your Cal.com booking calendar inline or in a popup.
+- Add Spherical Bookings to any WordPress page/post with a simple shortcode.
+- Display your availability inline or in a popup.
 - Customize your booking button to suit you.
 
 #### SHORTCODE
 
-<code>[cal url=/username/meetingid type=2 text="Schedule a call with me"]</code>
+<code>[bookings url=/username/meetingid type=2 text="Lets Talk!"]</code>
 
 #### SHORTCODE CUSTOMIZATION
 

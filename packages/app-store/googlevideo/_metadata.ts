@@ -19,7 +19,7 @@ export const metadata = {
   rating: 5,
   reviews: 69,
   trending: false,
-  url: "https://apps.google.com/meet/",
+  url: "https://apps.google.com/meet",
   verified: true,
   isGlobal: false,
   email: "help@spherical.works",
